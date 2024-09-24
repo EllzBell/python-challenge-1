@@ -209,7 +209,7 @@ for i in order_list:
     fix_spacing = (comp_space - price_space - 2) * " "
 
     # 10. Print the item name, price, and quantity
-    print(f"{item_name} {item_spaces}    | ${price}{fix_spacing}|  {quantity}")
+    print(f"\n{item_name} {item_spaces}    | ${price}{fix_spacing}| {quantity}")
 
 # 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum()
